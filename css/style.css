@@ -1,0 +1,161 @@
+.header {
+    background-color:azure
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav__item {
+    margin-left: 70px;
+}
+
+.hero-block{
+    background-color:rgb(44, 44, 44)
+}
+
+.container_hero-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0 91px;
+}
+
+.hero-block__content {
+   max-width: 475px;
+}
+
+.hero-block__title {
+    color: rgb(228, 228, 228);
+    font-size:  66px;
+    font-style: normal;
+}
+.hero-block__link {
+    border-radius: 60px;
+    background: orange;
+    padding: 29px;
+}
+.video {
+    background-color: rgb(44, 44, 44);
+    padding: 40px auto 50px;
+}
+
+.video__title {
+    color: rgb(228, 228, 228);
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin: 0;
+}
+
+.container__video {
+    padding: 40px auto 50px;
+}
+
+.video__border {
+    border: 40px solid rgb(65, 65, 65);
+    border-radius: 29px;
+}
+
+.about {
+    background-color: rgb(62, 62, 62);
+}
+
+.container_about {
+    padding: 72px 0 187px;
+}
+
+.about__title {
+    color: rgb(228, 228, 228);
+    font-size: 48px;
+    font-style: normal;
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__text {
+    font-weight: 700;
+    font-size: 36px;
+    color: rgb(228, 228, 228);
+}
+
+.gallery {
+    background-color: rgb(62, 62, 62);
+}
+
+.gallery__title {
+    color: rgb(228, 228, 228);
+    font-size: 72px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.gallery__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery__img {
+    width: 91%;
+}
+
+.gallery__item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer__container {
+    color: rgb(228, 228, 228);
+    display: flex;
+}
+
+.footer__subtitle {
+    font-size: 16px;
+}
+
+.footer__content {
+    color: rgb(0, 0, 0);
+    padding: 50px 0px 52px;
+    
+}
+
+.footer__content2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer__list {
+    display: flex;
+    padding-left: 500px;
+    
+}
+
